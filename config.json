@@ -1,0 +1,8 @@
+{
+  "client_id": "720394043154235453",
+  "client_secret": "XNwyWUwdNvfTtwGce4mX5vPhm5rPGGxE",
+  "admins": ["719675404155224154"],
+  "rdb_address": "37.187.124.179",
+  "rdb_port": 28015,
+  "rdb_db": "test"
+}
