@@ -1,9 +1,11 @@
 # meme-server
+
 The microservice that powers [Dank Memer's](https://goo.gl/HL3zBi) Image Generation.
 
 View a live instance [here](https://dankmemer.services)
 
 # Starting meme-server
+
 install rethinkdb [here](https://github.com/rethinkdb/rethinkdb) and get that running
 
 ```bash

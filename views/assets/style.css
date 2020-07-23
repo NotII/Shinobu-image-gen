@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #2C2E33;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #2c2e33;
+  font-family: "Montserrat", sans-serif;
 }
 
 th {
@@ -64,7 +64,7 @@ td {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .nav-link:hover {
@@ -90,12 +90,12 @@ td {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  font-family: 'Lato', 'Montserrat', sans-serif;
+  font-family: "Lato", "Montserrat", sans-serif;
 }
 
 .showcase-button {
   color: #fff;
-  border: 2px solid #23272A;
+  border: 2px solid #23272a;
   background-color: #40444b;
   margin: 0 5px;
   padding: 14px 28px;
@@ -103,7 +103,7 @@ td {
   width: 150px;
   cursor: pointer;
   border-radius: 8px;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   text-align: center;
   text-decoration: none;
 }
@@ -133,10 +133,10 @@ td {
   bottom: 0;
   left: 0;
   right: 0;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .stats {
@@ -178,8 +178,8 @@ td {
 .app-title {
   max-width: 20rem;
   text-align: center;
-  margin-bottom: .5rem;
-  margin-top: .3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .app-card {
@@ -188,7 +188,7 @@ td {
   display: flex;
   border-radius: 6px;
   border: 1px black solid;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
   margin: 20px 20px 2px 20px;
   justify-content: center;
   flex-direction: column;
@@ -198,7 +198,7 @@ td {
 .flex {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .flex-row {
@@ -229,7 +229,7 @@ td {
 }
 
 hr {
-  width: 90%
+  width: 90%;
 }
 
 .block {
@@ -238,7 +238,7 @@ hr {
 }
 
 .key-info {
-  background-color: #23272A;
+  background-color: #23272a;
   padding: 2px 20px 2px 20px;
 }
 
@@ -257,7 +257,7 @@ hr {
 }
 
 .form input {
-  background-color: #23272A;
+  background-color: #23272a;
   padding: 10px;
   border-radius: 3px;
   border: 1px solid white;
@@ -267,7 +267,7 @@ hr {
 }
 
 .form textarea {
-  background-color: #23272A;
+  background-color: #23272a;
   padding: 10px;
   border-style: solid;
   border-color: white;
@@ -280,7 +280,7 @@ hr {
 }
 
 .form select {
-  background-color: #23272A;
+  background-color: #23272a;
   padding: 10px;
   border-style: solid;
   border-color: white;
@@ -293,8 +293,6 @@ hr {
   resize: vertical;
 }
 
-
-
 h1 {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -306,7 +304,7 @@ h1 {
   margin-bottom: 2px;
 }
 
-h5{
+h5 {
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -392,7 +390,7 @@ h5{
   width: 100%;
   height: 40px;
   background-color: transparent;
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans Light", sans-serif;
   outline: none;
   color: white;
   font-size: 18px;
@@ -405,7 +403,7 @@ h5{
 
 .side-nav a::before {
   position: absolute;
-  content: '»';
+  content: "»";
   opacity: 0;
   transition: 0.5s;
   left: 0px;
@@ -450,7 +448,6 @@ h5{
   color: #e6e6e6;
   text-decoration: none;
   margin-right: 1rem;
-
 }
 
 .footer-link:hover {
