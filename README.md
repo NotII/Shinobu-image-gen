@@ -1,6 +1,5 @@
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 # Installing 
-#
 ```sh
 $ wget https://raw.githubusercontent.com/NotII/Shinobu-image-gen/master/setup.sh
 $ chmod 777 * 
