@@ -1,17 +1,19 @@
-# meme-server
-
-The microservice that powers [Dank Memer's](https://goo.gl/HL3zBi) Image Generation.
-
-View a live instance [here](https://dankmemer.services)
-
-# Starting meme-server
-
-install rethinkdb [here](https://github.com/rethinkdb/rethinkdb) and get that running
-
-```bash
-git clone
-cd meme-server
-./start.sh
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+#
+# Installing 
+#
+```sh
+$ wget https://raw.githubusercontent.com/NotII/Shinobu-image-gen/master/setup.sh
+$ chmod 777 * 
+$ ./setup.sh
 ```
+#
+ ##### Starting 
+ Files should be installed in /root/Shinobu-image-gen
+ Starting should be as easy as chmodding start.sh and starting it via ./start.sh 
+#
+ ##### Authentication 
 
-You can use this in conjunction with pm2 or tmux to ensure it runs after exiting the SSH session.
+Currently there is no authentication for api clients.
+
+Our free image api is at [https://imgen1.shinobu.host/](https://imgen1.shinobu.host/)
