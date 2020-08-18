@@ -4,7 +4,7 @@ sudo apt-get install git
 sudo apt-get install build-essential
 sudo apt-get install redis-server
 sudo apt-get -s build-dep imagemagick
-sudo app-get install ffmpeg
+sudo apt-get install ffmpeg
 sudo apt-get wget
 sudo apt-get install autoconf automake autopoint autotools-dev build-essential chrpath \
 cm-super-minimal debhelper dh-autoreconf dh-exec dh-strip-nondeterminism doxygen \
@@ -53,6 +53,8 @@ alias pip='pip3'
     sudo ldconfig /user/local/lib
     cd "/root/Shinobu-image-gen"
     pip3 install -r requirements.txt
+     pip3 install psutil>=5.7.0
+
 }
 dostuff
 sudo apt-get install gunicorn3
