@@ -1,12 +1,12 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install git 
-sudo apt-get install build-essential
-sudo apt-get install redis-server
-sudo apt-get -s build-dep imagemagick
-sudo apt-get install ffmpeg
-sudo apt-get wget
-sudo apt-get install autoconf automake autopoint autotools-dev build-essential chrpath \
+sudo apt-get update -y
+sudo apt-get install git -y
+sudo apt-get install build-essential -y
+sudo apt-get install redis-server -y
+sudo apt-get -s build-dep imagemagick -y
+sudo apt-get install ffmpeg -y
+sudo apt-get isntall wget -y
+sudo apt-get install -y autoconf automake autopoint autotools-dev build-essential chrpath \
 cm-super-minimal debhelper dh-autoreconf dh-exec dh-strip-nondeterminism doxygen \
 doxygen-latex dpkg-dev fonts-lmodern g++ g++-7 gcc gcc-7 gir1.2-harfbuzz-0.0 graphviz \
 icu-devtools libann0 libasan4 libatomic1 libbz2-dev libc-dev-bin libc6-dev \
@@ -32,16 +32,17 @@ texlive-base texlive-binaries texlive-extra-utils texlive-font-utils \
 texlive-fonts-recommended texlive-latex-base texlive-latex-extra \
 texlive-latex-recommended texlive-pictures x11proto-core-dev x11proto-dev \
 x11proto-xext-dev xorg-sgml-doctools xsltproc xtrans-dev zlib1g-dev
-sudo apt-get install checkinstall libwebp-dev libopenjp2-7-dev librsvg2-dev \
+sudo apt-get install -y checkinstall libwebp-dev libopenjp2-7-dev librsvg2-dev \
 libde265-dev libheif-dev
-sudo apt-get install python3
-sudo apt-get install python3-pip
+sudo apt-get install python3 -y
+sudo apt-get install python3-pip -y
+sudo apt-get install gunicorn3 -y
 redis-server
 alias python='python3'
 alias pip='pip3'
 function dostuff() {
-alias python='python3'
-alias pip='pip3'
+    alias python='python3'
+    alias pip='pip3'
     cd "/root/"
     git clone https://github.com/NotII/Shinobu-image-gen
     git clone https://github.com/ultrasaurus/ImageMagick-7.0.7-28
@@ -53,8 +54,7 @@ alias pip='pip3'
     sudo ldconfig /user/local/lib
     cd "/root/Shinobu-image-gen"
     pip3 install -r requirements.txt
-     pip3 install psutil>=5.7.0
+    pip3 install psutil>=5.7.0
 
 }
 dostuff
-sudo apt-get install gunicorn3
